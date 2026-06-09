@@ -128,6 +128,10 @@ h1 {
 
 
 }
+
+.birds {padding-bottom: 5px; }
+
+
 @media (max-width: 768px) {
 
     header {
