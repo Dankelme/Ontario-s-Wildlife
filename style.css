@@ -118,4 +118,32 @@ h1 {
 .cards p {
     margin-top: 5px;
 }
+@media (max-width: 768px) {
 
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+}
