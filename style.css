@@ -74,7 +74,7 @@ h1 {
     padding: 0 10px; 
 }
     
-}
+
 
 .herobox2 {
     
@@ -128,26 +128,9 @@ h1 {
         text-align: center;
     }
 
-    main {
-        flex-direction: column;
-    }
-
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card1,
-    .card2,
-    .card3 {
-        width: 100%;
-        max-width: 400px;
-    }
-
     .title {
         font-size: 1.8rem;
     }
-@media (max-width: 768px) {
 
     main {
         flex-direction: column;
@@ -163,5 +146,16 @@ h1 {
         padding: 0 10px;
     }
 
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%;
+        max-width: 400px;
+    }
 }
 }
