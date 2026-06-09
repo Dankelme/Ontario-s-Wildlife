@@ -129,7 +129,9 @@ h1 {
 
 }
 
-.birds {padding-bottom: 5px; }
+.birds {
+    margin-top: 15px;
+}
 
 
 @media (max-width: 768px) {
