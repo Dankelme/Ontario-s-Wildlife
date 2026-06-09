@@ -147,5 +147,21 @@ h1 {
     .title {
         font-size: 1.8rem;
     }
+@media (max-width: 768px) {
 
+    main {
+        flex-direction: column;
+    }
+
+    .herobox1,
+    .herobox2 {
+        width: 100%;
+    }
+
+    .herobox1 p {
+        margin-right: 0;
+        padding: 0 10px;
+    }
+
+}
 }
