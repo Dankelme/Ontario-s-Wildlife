@@ -144,12 +144,10 @@ h1 {
         flex-direction: column;
     }
 
-    .herobox1,
-    .herobox2 {
-        width: 100%;
-        text-align: center;
-    }
-
+.herobox1,
+.herobox2 {
+    width: 100%;
+}
     .herobox1 p {
         margin-right: 0;
         padding: 0 15px;
