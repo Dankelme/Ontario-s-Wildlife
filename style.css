@@ -9,6 +9,12 @@ body {
     font-weight: 500;
 }
 
+.deer img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
 
 .container {
     width: 1024px;
