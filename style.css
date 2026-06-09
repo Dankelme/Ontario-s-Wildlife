@@ -1,0 +1,120 @@
+html {
+    height: 110%;
+}
+
+body {
+    background-image: linear-gradient( #681abf,#abdea2);
+    padding-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+
+.container {
+    width: 1024px;
+    
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+header {
+    background-color:#f1c496;
+    
+    min-height: 100px;
+    display: flex;
+   justify-content: space-between;
+
+}
+
+ .title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+header p {
+    padding: 20px;
+    color: #0a087f;
+}
+
+main {
+   
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #0a087f;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.herobox1 {
+   
+    
+    flex: 2;
+}
+
+.herobox1 h1 {
+    margin-top: 30px;
+}
+
+.herobox1 p {
+   
+    margin-right: 15px;
+    color: #0a087f;
+    font-size: 1.;
+    line-height: 1.5rem;
+    margin-bottom: 15px;
+    
+}
+
+.herobox2 {
+    
+    
+    flex: 1;
+}
+
+.cards {
+    
+    min-height: 300px;
+    display: flex;
+   justify-content: space-between;
+   text-align: center;
+   
+   color: #0a087f;
+   font-size: 1.5rem;
+   
+    
+}
+
+.card1 {
+    
+    min-height: 300px;
+    width: 30%;
+   
+}
+
+.card2 {
+   
+    min-height: 300px;
+    width: 30%;
+    
+}
+
+.card3 {
+  
+    min-height: 300px;
+    width: 30%;
+    
+    
+}
+
+.cards p {
+    margin-top: 5px;
+}
+
