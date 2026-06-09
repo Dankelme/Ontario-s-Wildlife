@@ -122,40 +122,19 @@ h1 {
 }
 @media (max-width: 768px) {
 
-    header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .title {
-        font-size: 1.8rem;
-    }
-
-    main {
-        flex-direction: column;
-    }
-
     .herobox1,
     .herobox2 {
         width: 100%;
+        padding: 20px;
+        text-align: center;
     }
 
-    .herobox1 p {
-        margin-right: 0;
-        padding: 0 10px;
+    .herobox2 img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
     }
 
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .card1,
-    .card2,
-    .card3 {
-        width: 100%;
-        max-width: 400px;
-    }
-}
 }
